@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+
+}
+
+.logo__text {
+    margin-right: 457px;
+    align-self: flex-end;
+    font-family: 'Bad Script', sans-serif;
+    font-size: 2.3rem;
+    line-height: 1.05;
+    font-weight: 400;
+    color: $black_text;
+}
+
+.lapa {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.lapa_address {
+    margin-top: 15px;
+    font-family: 'Geometria', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $black_text;
+}
+
+.lapa_1 {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 15px;
+}
+
+.lapa__tel {
+    margin-top: 15px;
+    font-family: 'Geometria', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $black_text;
+}

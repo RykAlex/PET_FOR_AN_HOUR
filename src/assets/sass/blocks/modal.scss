@@ -1,0 +1,43 @@
+.modal-content {
+    margin-top: 185px;
+    width: 555px;
+    background-color: #d3d3d0;
+    height: 469px;
+}
+.modal__header {
+    display: flex;
+    position: relative;
+    height: 101px;
+    background-color: #bcbcbc;
+}
+
+.modal__title {
+    margin-left: 127px;
+    white-space: nowrap;
+
+
+    vertical-align: middle;
+    text-align: center;
+
+    font-family: 'Geometria',sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #242424;
+}
+
+.modal__close {
+    width: 18px;
+    height: 18px;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+
+    &:focus {
+        outline: 0;
+    }
+}

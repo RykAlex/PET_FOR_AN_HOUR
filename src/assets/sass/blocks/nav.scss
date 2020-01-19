@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    background-color: $plue;
+    height: 56px;
+}
+
+.nav__link {
+    padding: 15px 20px;
+    font-family: 'Geometria', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $white;
+    text-decoration: none;
+    transition: background .1s linear;
+
+    &:hover {
+        background-color: $black;
+        opacity: 0.45;
+    }
+}
+
+.phone {
+    display: flex;
+    padding: 7px 34px 7px 24px;
+    align-items: center;
+    border-radius: $radius_sm;
+    background-color: #6d5cad;
+        &:hover {
+            background-image: linear-gradient(-90.0deg, #7ac398 0%, #01abce 100%);
+            opacity: 1;
+        }
+}
+
+.logo_phone {
+    margin-right: 12px;
+}
+
+.call__back {
+    font-family: 'Geometria', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $white;
+    text-decoration: none;
+}

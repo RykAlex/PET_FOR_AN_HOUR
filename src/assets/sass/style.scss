@@ -1,0 +1,51 @@
+@import "vars";
+
+
+/* Default styles */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+
+
+    font-family: 'Montserrat', sans-serif;
+    color: $white;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Bootstrap */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/transitions";
+@import "../../../node_modules/bootstrap/scss/modal";
+
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/modal";
+@import "blocks/form";
+@import "blocks/input";
+@import "blocks/button";
+@import "blocks/portfolio";
+
+
+/* Vendor libs */
+@import "vendor/slick";
