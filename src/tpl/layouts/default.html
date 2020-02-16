@@ -7,16 +7,23 @@
 <!--Header-->
 {{> sprite }}
 <div class="page">
-{{> header }}
-{{> nav }}
-{{> modal }}
-
-<!--Slider-->
-{{> portfolio }}
-
-<!--Content-->
-{{> content }}
-
+    <div class="container">
+        {{> header }}
+        {{> nav }}
+        {{> modal }}
+    </div>
+    <div class="container">
+        <!--Slider-->
+        {{> portfolio }}
+    </div>
+    <div class="container">
+        <!--Content-->
+        {{> content }}
+    </div>
+    <div class="container">
+        <!--Footer-->
+        {{> footer }}
+    </div>
 </div>
 <script src="assets/js/app.min.js"></script>
 
